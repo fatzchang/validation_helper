@@ -1,7 +1,9 @@
 {
   "name": "validation_helper",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "lib/bundle.umd.js",
+  "module": "lib/bundle.esm.js",
+  "files": ["lib"],
   "repository": "https://github.com/fatzchang/validation_helper.git",
   "author": "fatz <github@fatz.tw>",
   "license": "MIT",

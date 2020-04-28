@@ -11,9 +11,10 @@ export default {
   ],
   output: [
     {
-      format: "cjs",
-      file: "lib/bundle.cjs.js",
+      format: "umd",
+      file: "lib/bundle.umd.js",
       plugins: [terser()],
+      name: 'vh'
     },
     {
       format: "es",
